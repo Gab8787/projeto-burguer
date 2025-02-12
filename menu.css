@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: jura;
+    src: url(./fontes/Jura-VariableFont_wght.ttf);
+}
+
+menu a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(64, 57, 61);
+    font-family: jura;
+}
+
+menu{
+    background-color: rgba(255, 255, 255, 0.96);
+    display: inline-block;
+    width: 750px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+
+a:hover{
+    background-color: rgba(128, 128, 128, 0.211);
+    transition: 0.6s;
+}
