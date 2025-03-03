@@ -17,7 +17,7 @@
 }
 
 html, body{
-    background-color: rgb(253, 86, 25);
+    background-color: rgba(255, 101, 45, 0.579);
 }
 
 div{
@@ -83,7 +83,7 @@ p{
 div:hover{
     background-color: rgb(212, 211, 211);
     transition: 0.5s;
-    padding: 3px;
+    transform: scale(1.10);
 }
 
 h3:hover{
